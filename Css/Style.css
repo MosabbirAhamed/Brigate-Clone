@@ -100,7 +100,17 @@ body, p {
         list-style: none;
         float: left;
     }
-    
+    header#topBar {
+    position: sticky;
+    top: -38px;
+    z-index: 999999999;
+    left: 0;
+}
+
+.mainmenu {
+    background: #fff;
+    box-shadow: 4px 3px 10px 1px #adadad;
+}
     ul.mainmenuitem li a {
         text-decoration: none;
         text-transform: uppercase;
